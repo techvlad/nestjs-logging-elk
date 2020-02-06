@@ -7,7 +7,7 @@ import { AppService } from './app.service';
   imports: [
     LoggerModule.forRoot({
       pinoHttp: {
-        level: process.env.NODE_ENV !== 'production' ? 'debug' : 'info',
+        level: process.env.NODE_ENV !== 'production' ? 'trace' : 'info',
         prettyPrint: process.env.NODE_ENV !== 'production',
         useLevelLabels: true,
       },
