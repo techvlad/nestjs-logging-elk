@@ -23,7 +23,7 @@
   "dependencies": {
     "@nestjs/common": "^6.10.14",
     "@nestjs/core": "^6.10.14",
-    "@nestjs/platform-express": "^6.10.14",
+    "@nestjs/platform-express": "^9.2.1",
     "nestjs-pino": "^1.1.3",
     "pino-pretty": "^3.5.0",
     "reflect-metadata": "^0.1.13",
